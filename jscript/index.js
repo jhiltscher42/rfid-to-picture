@@ -16,5 +16,5 @@ $(function(){
 	});
 
 
-	$("body").on("got_id",console.log.bind(console));
+	$("body").on("got_id",function(ev,arg){console.log(arg)});
 });
