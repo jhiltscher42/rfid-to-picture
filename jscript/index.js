@@ -19,5 +19,8 @@ $(function(){
 
 	$("body").on("got_id",function(ev,arg){
 		$("#last_text_scanned").text(arg);
+		setTimeout(function(){
+			$("#last_text_scanned").fadeOut(1000,function(){current_id=''; $("#last_text_scanned").fadeIn();})
+		},10*1000)
 	});
 });
