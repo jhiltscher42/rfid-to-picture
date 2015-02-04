@@ -3,6 +3,7 @@ $(function(){
 	var current_id='';
 
 	$("body").keypress(function(event){
+		event.preventDefault();
 		if (event.which===13){
 			//enter was pressed.  current_id is collected; do what we're doing with it
 			//then clear it out.
