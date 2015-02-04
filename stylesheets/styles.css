@@ -9,7 +9,8 @@ body {
 #last_text_scanned {
   font-size: 20pt;
   font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
   color: yellow;
 }
