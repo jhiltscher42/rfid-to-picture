@@ -21,6 +21,6 @@ $(function(){
 		$("#last_text_scanned").text(arg);
 		setTimeout(function(){
 			$("#last_text_scanned").fadeOut(1000,function(){current_id=''; $("#last_text_scanned").text('').fadeIn();})
-		},10*1000)
+		},3*1000)
 	});
 });
