@@ -17,5 +17,7 @@ $(function(){
 	});
 
 
-	$("body").on("got_id",function(ev,arg){console.log(arg)});
+	$("body").on("got_id",function(ev,arg){
+		$("#last_text_scanned").text(arg);
+	});
 });
